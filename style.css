@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #FF45B5;
+    font-size: 35px;
+}
+
+.inner {
+    background-color: #f8f4e5;
+    padding: 57px 100px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px rgba(0, 0, 0, 1);
+}
+
+input {
+    display: block;
+    width: 500px;
+    font-size: 14pt;
+    line-height: 28pt;
+    margin-bottom: 28pt;
+    border: none;
+    border-bottom: 4px solid rgba(0, 0, 0, 1);
+    background: #f8f4e5;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+input:focus {
+    border-bottom: 4px solid #ffa580;
+}
+
+
+button {
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 28pt;
+    padding: 0 20px;
+    background-color: #ffa580;
+    letter-spacing: 1px;
+    outline: none;
+    border-color: #ffa580;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 0px 0px #ffa580;
+    cursor: pointer;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: space-around;
+}
